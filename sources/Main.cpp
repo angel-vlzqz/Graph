@@ -6,6 +6,7 @@ using namespace std;
 int main()
 {
     int list[15][15];
+    string vertices[15] = {"Mohave", "Coconino", "Navajo", "Apache", "Greenlee", "Cochise", "Santa Cruz", "Pima", "Pinal", "Graham", "Gila", "Yavapai", "La Paz", "Yuma", "Maricopa"};
 
     list[0][0] = 0;
     list[0][1] = 14;
@@ -251,12 +252,13 @@ int main()
     {
         for (auto j = 0; j < 15; j++)
         {
-            if (!list[i][j])
-            {
-                list[i][j] = 0;
-            }
             cout << list[i][j] << "\t";
         }
         cout << endl;
+    }
+
+    for (auto i = 0; i < 15; i++)
+    {
+        cout << vertices[i] << endl;
     }
 }
