@@ -1,0 +1,5 @@
+/Users/vlzqz/school/AVelazquez-project8/build/CMakeFiles/project.dir
+/Users/vlzqz/school/AVelazquez-project8/build/CMakeFiles/main_test.dir
+/Users/vlzqz/school/AVelazquez-project8/build/CMakeFiles/test.dir
+/Users/vlzqz/school/AVelazquez-project8/build/CMakeFiles/edit_cache.dir
+/Users/vlzqz/school/AVelazquez-project8/build/CMakeFiles/rebuild_cache.dir
