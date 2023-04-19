@@ -243,26 +243,53 @@ Graph::Graph()
     list[14][14] = 0;
 }
 
-void Graph::neighbor(int idx)
+void Graph::neighbor(int IDX)
 {
-    cout << "this county's neighbors are ";
+    cout << vertices[IDX] << "'s neighbors are ";
 
     // checks 2D array for non-zero values and prints them
     for (int i = 0; i < 15; i++)
     {
-        if (list[idx][i] != 0)
+        if (list[IDX][i] != 0)
         {
             cout << vertices[i] << ", ";
         }
     }
+
+    cout << endl;
 }
 
-void Graph::distance()
+void Graph::distance(int a, int b)
 {
+    int START = a;
+    int END = b;
+    int SUM = 0;
+
+    // base case
+    if (list[START][END] != 0)
+    {
+        SUM = list[START][END];
+        cout << "The distance between " << vertices[START] << " and " << vertices[END] << " counties is " << SUM << " units." << endl;
+        return;
+    }
+
+    // greedy search
+    while (true)
+    {
+        if (list[START][END] != 0)
+        {
+            cout << "The distance between " << vertices[a] << " and " << vertices[b] << " counties is " << SUM << " units." << endl;
+            return;
+        }
+        else
+        {
+        }
+    }
 }
 
 void Graph::print()
 {
+    // prints 2D int array
     for (auto i = 0; i < 15; i++)
     {
         for (auto j = 0; j < 15; j++)
@@ -272,6 +299,7 @@ void Graph::print()
         cout << endl;
     }
 
+    // prints string array of counties
     for (auto i = 0; i < 15; i++)
     {
         cout << vertices[i] << endl;
