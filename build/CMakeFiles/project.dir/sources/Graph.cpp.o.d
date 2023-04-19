@@ -1,5 +1,6 @@
-CMakeFiles/project.dir/sources/Main.cpp.o: \
- /Users/vlzqz/school/AVelazquez-project8/sources/Main.cpp \
+CMakeFiles/project.dir/sources/Graph.cpp.o: \
+ /Users/vlzqz/school/AVelazquez-project8/sources/Graph.cpp \
+ /Users/vlzqz/school/AVelazquez-project8/sources/Graph.hpp \
  /opt/homebrew/Cellar/gcc/12.2.0/include/c++/12/iostream \
  /opt/homebrew/Cellar/gcc/12.2.0/include/c++/12/aarch64-apple-darwin21/bits/c++config.h \
  /opt/homebrew/Cellar/gcc/12.2.0/include/c++/12/aarch64-apple-darwin21/bits/os_defines.h \
@@ -207,5 +208,4 @@ CMakeFiles/project.dir/sources/Main.cpp.o: \
  /opt/homebrew/Cellar/gcc/12.2.0/include/c++/12/bits/basic_ios.tcc \
  /opt/homebrew/Cellar/gcc/12.2.0/include/c++/12/bits/ostream.tcc \
  /opt/homebrew/Cellar/gcc/12.2.0/include/c++/12/istream \
- /opt/homebrew/Cellar/gcc/12.2.0/include/c++/12/bits/istream.tcc \
- /Users/vlzqz/school/AVelazquez-project8/sources/Graph.hpp
+ /opt/homebrew/Cellar/gcc/12.2.0/include/c++/12/bits/istream.tcc

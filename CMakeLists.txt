@@ -13,7 +13,7 @@ ENDIF()
 
 add_executable(project
   "sources/Main.cpp"
-  "sources/Adder.cpp")
+  "sources/Graph.cpp")
 
 enable_testing()
 include(GoogleTest)

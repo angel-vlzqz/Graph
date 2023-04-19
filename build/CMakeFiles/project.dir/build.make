@@ -83,30 +83,30 @@ CMakeFiles/project.dir/sources/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project.dir/sources/Main.cpp.s"
 	/opt/homebrew/bin/aarch64-apple-darwin21-g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vlzqz/school/AVelazquez-project8/sources/Main.cpp -o CMakeFiles/project.dir/sources/Main.cpp.s
 
-CMakeFiles/project.dir/sources/Adder.cpp.o: CMakeFiles/project.dir/flags.make
-CMakeFiles/project.dir/sources/Adder.cpp.o: /Users/vlzqz/school/AVelazquez-project8/sources/Adder.cpp
-CMakeFiles/project.dir/sources/Adder.cpp.o: CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlzqz/school/AVelazquez-project8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/project.dir/sources/Adder.cpp.o"
-	/opt/homebrew/bin/aarch64-apple-darwin21-g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/sources/Adder.cpp.o -MF CMakeFiles/project.dir/sources/Adder.cpp.o.d -o CMakeFiles/project.dir/sources/Adder.cpp.o -c /Users/vlzqz/school/AVelazquez-project8/sources/Adder.cpp
+CMakeFiles/project.dir/sources/Graph.cpp.o: CMakeFiles/project.dir/flags.make
+CMakeFiles/project.dir/sources/Graph.cpp.o: /Users/vlzqz/school/AVelazquez-project8/sources/Graph.cpp
+CMakeFiles/project.dir/sources/Graph.cpp.o: CMakeFiles/project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlzqz/school/AVelazquez-project8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/project.dir/sources/Graph.cpp.o"
+	/opt/homebrew/bin/aarch64-apple-darwin21-g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/sources/Graph.cpp.o -MF CMakeFiles/project.dir/sources/Graph.cpp.o.d -o CMakeFiles/project.dir/sources/Graph.cpp.o -c /Users/vlzqz/school/AVelazquez-project8/sources/Graph.cpp
 
-CMakeFiles/project.dir/sources/Adder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project.dir/sources/Adder.cpp.i"
-	/opt/homebrew/bin/aarch64-apple-darwin21-g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vlzqz/school/AVelazquez-project8/sources/Adder.cpp > CMakeFiles/project.dir/sources/Adder.cpp.i
+CMakeFiles/project.dir/sources/Graph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project.dir/sources/Graph.cpp.i"
+	/opt/homebrew/bin/aarch64-apple-darwin21-g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vlzqz/school/AVelazquez-project8/sources/Graph.cpp > CMakeFiles/project.dir/sources/Graph.cpp.i
 
-CMakeFiles/project.dir/sources/Adder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project.dir/sources/Adder.cpp.s"
-	/opt/homebrew/bin/aarch64-apple-darwin21-g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vlzqz/school/AVelazquez-project8/sources/Adder.cpp -o CMakeFiles/project.dir/sources/Adder.cpp.s
+CMakeFiles/project.dir/sources/Graph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project.dir/sources/Graph.cpp.s"
+	/opt/homebrew/bin/aarch64-apple-darwin21-g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vlzqz/school/AVelazquez-project8/sources/Graph.cpp -o CMakeFiles/project.dir/sources/Graph.cpp.s
 
 # Object files for target project
 project_OBJECTS = \
 "CMakeFiles/project.dir/sources/Main.cpp.o" \
-"CMakeFiles/project.dir/sources/Adder.cpp.o"
+"CMakeFiles/project.dir/sources/Graph.cpp.o"
 
 # External object files for target project
 project_EXTERNAL_OBJECTS =
 
 project: CMakeFiles/project.dir/sources/Main.cpp.o
-project: CMakeFiles/project.dir/sources/Adder.cpp.o
+project: CMakeFiles/project.dir/sources/Graph.cpp.o
 project: CMakeFiles/project.dir/build.make
 project: CMakeFiles/project.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vlzqz/school/AVelazquez-project8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable project"

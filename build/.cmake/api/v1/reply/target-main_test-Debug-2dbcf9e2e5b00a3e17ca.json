@@ -84,7 +84,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " -Wall -Wextra -Wshadow -std=c++20 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk"
+					"fragment" : " -Wall -Wextra -Wshadow -std=c++20 -g -arch arm64"
 				}
 			],
 			"includes" : 

@@ -152,29 +152,29 @@ main_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_test.dir/build.make CMakeFiles/main_test.dir/build
 .PHONY : main_test/fast
 
-sources/Adder.o: sources/Adder.cpp.o
-.PHONY : sources/Adder.o
+sources/Graph.o: sources/Graph.cpp.o
+.PHONY : sources/Graph.o
 
 # target to build an object file
-sources/Adder.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/sources/Adder.cpp.o
-.PHONY : sources/Adder.cpp.o
+sources/Graph.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/sources/Graph.cpp.o
+.PHONY : sources/Graph.cpp.o
 
-sources/Adder.i: sources/Adder.cpp.i
-.PHONY : sources/Adder.i
+sources/Graph.i: sources/Graph.cpp.i
+.PHONY : sources/Graph.i
 
 # target to preprocess a source file
-sources/Adder.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/sources/Adder.cpp.i
-.PHONY : sources/Adder.cpp.i
+sources/Graph.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/sources/Graph.cpp.i
+.PHONY : sources/Graph.cpp.i
 
-sources/Adder.s: sources/Adder.cpp.s
-.PHONY : sources/Adder.s
+sources/Graph.s: sources/Graph.cpp.s
+.PHONY : sources/Graph.s
 
 # target to generate assembly for a file
-sources/Adder.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/sources/Adder.cpp.s
-.PHONY : sources/Adder.cpp.s
+sources/Graph.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/sources/Graph.cpp.s
+.PHONY : sources/Graph.cpp.s
 
 sources/Main.o: sources/Main.cpp.o
 .PHONY : sources/Main.o
@@ -235,9 +235,9 @@ help:
 	@echo "... test"
 	@echo "... main_test"
 	@echo "... project"
-	@echo "... sources/Adder.o"
-	@echo "... sources/Adder.i"
-	@echo "... sources/Adder.s"
+	@echo "... sources/Graph.o"
+	@echo "... sources/Graph.i"
+	@echo "... sources/Graph.s"
 	@echo "... sources/Main.o"
 	@echo "... sources/Main.i"
 	@echo "... sources/Main.s"

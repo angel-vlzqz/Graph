@@ -6,7 +6,7 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -isystem /usr/local/include
 
-CXX_FLAGSarm64 =  -Wall -Wextra -Wshadow -std=c++20 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+CXX_FLAGSarm64 =  -Wall -Wextra -Wshadow -std=c++20 -g -arch arm64
 
-CXX_FLAGS =  -Wall -Wextra -Wshadow -std=c++20 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+CXX_FLAGS =  -Wall -Wextra -Wshadow -std=c++20 -g -arch arm64
 

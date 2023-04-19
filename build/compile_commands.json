@@ -1,19 +1,19 @@
 [
 {
   "directory": "/Users/vlzqz/school/AVelazquez-project8/build",
-  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-12    -Wall -Wextra -Wshadow -std=c++20 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -o CMakeFiles/project.dir/sources/Main.cpp.o -c /Users/vlzqz/school/AVelazquez-project8/sources/Main.cpp",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-12    -Wall -Wextra -Wshadow -std=c++20 -g -arch arm64 -o CMakeFiles/project.dir/sources/Main.cpp.o -c /Users/vlzqz/school/AVelazquez-project8/sources/Main.cpp",
   "file": "/Users/vlzqz/school/AVelazquez-project8/sources/Main.cpp",
   "output": "CMakeFiles/project.dir/sources/Main.cpp.o"
 },
 {
   "directory": "/Users/vlzqz/school/AVelazquez-project8/build",
-  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-12    -Wall -Wextra -Wshadow -std=c++20 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -o CMakeFiles/project.dir/sources/Adder.cpp.o -c /Users/vlzqz/school/AVelazquez-project8/sources/Adder.cpp",
-  "file": "/Users/vlzqz/school/AVelazquez-project8/sources/Adder.cpp",
-  "output": "CMakeFiles/project.dir/sources/Adder.cpp.o"
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-12    -Wall -Wextra -Wshadow -std=c++20 -g -arch arm64 -o CMakeFiles/project.dir/sources/Graph.cpp.o -c /Users/vlzqz/school/AVelazquez-project8/sources/Graph.cpp",
+  "file": "/Users/vlzqz/school/AVelazquez-project8/sources/Graph.cpp",
+  "output": "CMakeFiles/project.dir/sources/Graph.cpp.o"
 },
 {
   "directory": "/Users/vlzqz/school/AVelazquez-project8/build",
-  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-12  -isystem /usr/local/include  -Wall -Wextra -Wshadow -std=c++20 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -o CMakeFiles/main_test.dir/tests/MainTest.cpp.o -c /Users/vlzqz/school/AVelazquez-project8/tests/MainTest.cpp",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-12  -isystem /usr/local/include  -Wall -Wextra -Wshadow -std=c++20 -g -arch arm64 -o CMakeFiles/main_test.dir/tests/MainTest.cpp.o -c /Users/vlzqz/school/AVelazquez-project8/tests/MainTest.cpp",
   "file": "/Users/vlzqz/school/AVelazquez-project8/tests/MainTest.cpp",
   "output": "CMakeFiles/main_test.dir/tests/MainTest.cpp.o"
 }
