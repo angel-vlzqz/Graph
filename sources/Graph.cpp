@@ -243,8 +243,18 @@ Graph::Graph()
     list[14][14] = 0;
 }
 
-void Graph::neighbor()
+void Graph::neighbor(int idx)
 {
+    cout << "this county's neighbors are ";
+
+    // checks 2D array for non-zero values and prints them
+    for (int i = 0; i < 15; i++)
+    {
+        if (list[idx][i] != 0)
+        {
+            cout << vertices[i] << ", ";
+        }
+    }
 }
 
 void Graph::distance()

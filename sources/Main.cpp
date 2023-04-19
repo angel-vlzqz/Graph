@@ -6,5 +6,5 @@ using namespace std;
 int main()
 {
     Graph graph;
-    graph.print();
+    graph.neighbor(3);
 }
