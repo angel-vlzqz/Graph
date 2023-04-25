@@ -262,32 +262,34 @@ void Graph::neighbor(int IDX)
 void Graph::distance(int start, int end)
 {
     int total = 0;
-    int e = end; // e = END
+    int START = start;
+    int END = end; // e = END
 
-    if (list[start][e] > 0)
+    if (list[START][END] > 0)
     {
-        cout << list[start][e] << endl; // if a index[start][end] > 0  return value at index[start][end]
+        cout << "the distance from " << vertices[START] << " and " << vertices[END] << " is " << list[START][END] << endl; // if a index[start][end] > 0  return value at index[start][end]
+        return;
     }
-    while (list[start][e] == 0)
+    while (list[START][END] == 0)
     { // It not, run a while loop that keeps going while index[start][end] == 0.
-        if (e == 5)
+        if (END == 5)
         {
-            e = -1; // if m gets to end of the matrix, make e – 1.
+            END = -1; // if m gets to end of the matrix, make e – 1.
         }
-        e += 1;
-        if (list[start][e] == 0)
+        END += 1;
+        if (list[START][END] == 0)
         { // Check for weight at new location.  If e == 0 add one to m
-            e += 1;
+            END += 1;
         }
-        total += list[start][e]; // Add the index value of the next neighbor.
-        start = e;               // Make a switch so that the start value is now e and e is now end.
-        e = end;
-        if (list[start][e] > 0)
+        total += list[START][END]; // Add the index value of the next neighbor.
+        START = END;               // Make a switch so that the start value is now e and e is now end.
+        END = end;
+        if (list[START][END] > 0)
         { // If index[start][e] is greater than 0 add to the total.
-            total += list[start][end];
+            total += list[START][end];
         }
     }
-    cout << total << endl;
+    cout << "the distance from " << vertices[START] << " and " << vertices[END] << " is " << list[START][END] << endl; // if a index[start][end] > 0  return value at index[start][end]
 }
 
 void Graph::print()

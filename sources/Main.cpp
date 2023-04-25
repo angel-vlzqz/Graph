@@ -7,5 +7,5 @@ int main()
 {
     Graph graph;
     graph.neighbor(13);
-    graph.distance(5, 13);
+    graph.distance(0, 12);
 }
