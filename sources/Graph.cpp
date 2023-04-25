@@ -259,32 +259,35 @@ void Graph::neighbor(int IDX)
     cout << endl;
 }
 
-void Graph::distance(int a, int b)
+void Graph::distance(int start, int end)
 {
-    int START = a;
-    int END = b;
-    int SUM = 0;
+    int total = 0;
+    int e = end; // e = END
 
-    // base case
-    if (list[START][END] != 0)
+    if (list[start][e] > 0)
     {
-        SUM = list[START][END];
-        cout << "The distance between " << vertices[START] << " and " << vertices[END] << " counties is " << SUM << " units." << endl;
-        return;
+        cout << list[start][e] << endl; // if a index[start][end] > 0  return value at index[start][end]
     }
-
-    // greedy search
-    while (true)
-    {
-        if (list[START][END] != 0)
+    while (list[start][e] == 0)
+    { // It not, run a while loop that keeps going while index[start][end] == 0.
+        if (e == 5)
         {
-            cout << "The distance between " << vertices[a] << " and " << vertices[b] << " counties is " << SUM << " units." << endl;
-            return;
+            e = -1; // if m gets to end of the matrix, make e – 1.
         }
-        else
-        {
+        e += 1;
+        if (list[start][e] == 0)
+        { // Check for weight at new location.  If e == 0 add one to m
+            e += 1;
+        }
+        total += list[start][e]; // Add the index value of the next neighbor.
+        start = e;               // Make a switch so that the start value is now e and e is now end.
+        e = end;
+        if (list[start][e] > 0)
+        { // If index[start][e] is greater than 0 add to the total.
+            total += list[start][end];
         }
     }
+    cout << total << endl;
 }
 
 void Graph::print()
