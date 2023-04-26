@@ -263,16 +263,18 @@ void Graph::distance(int start, int end)
 {
     int total = 0;
     int START = start;
-    int END = end; // e = END
+    int END = end;
 
+    // base case
     if (list[START][END] > 0)
     {
         cout << "the distance from " << vertices[START] << " and " << vertices[END] << " is " << list[START][END] << endl; // if a index[start][end] > 0  return value at index[start][end]
         return;
     }
+
     while (list[START][END] == 0)
-    { // It not, run a while loop that keeps going while index[start][end] == 0.
-        if (END == 5)
+    {
+        if (END > 15)
         {
             END = -1; // if m gets to end of the matrix, make e – 1.
         }
@@ -281,8 +283,8 @@ void Graph::distance(int start, int end)
         { // Check for weight at new location.  If e == 0 add one to m
             END += 1;
         }
-        total += list[START][END]; // Add the index value of the next neighbor.
-        START = END;               // Make a switch so that the start value is now e and e is now end.
+        total += list[START][END];
+        START = END; // Make a switch so that the start value is now e and e is now end.
         END = end;
         if (list[START][END] > 0)
         { // If index[start][e] is greater than 0 add to the total.

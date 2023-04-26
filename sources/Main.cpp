@@ -6,6 +6,6 @@ using namespace std;
 int main()
 {
     Graph graph;
-    graph.neighbor(13);
-    graph.distance(0, 12);
+    graph.neighbor(3);
+    graph.distance(13, 10);
 }
