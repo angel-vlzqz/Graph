@@ -248,6 +248,7 @@ void Graph::neighbor(int IDX)
     cout << vertices[IDX] << "'s neighbors are ";
 
     // checks 2D array for non-zero values and prints them
+    // O(n)
     for (int i = 0; i < 15; i++)
     {
         if (list[IDX][i] != 0)
@@ -272,9 +273,10 @@ void Graph::distance(int start, int end)
         return;
     }
 
+    // greedy search O(n)
     while (list[START][END] == 0)
     {
-        if (END > 15)
+        if (END > 14)
         {
             END = -1; // if m gets to end of the matrix, make e – 1.
         }
@@ -291,12 +293,13 @@ void Graph::distance(int start, int end)
             total += list[START][end];
         }
     }
-    cout << "the distance from " << vertices[START] << " and " << vertices[END] << " is " << list[START][END] << endl; // if a index[start][end] > 0  return value at index[start][end]
+    cout << "the distance from " << vertices[START] << " and " << vertices[END] << " is " << total << endl; // if a index[start][end] > 0  return value at index[start][end]
 }
 
 void Graph::print()
 {
     // prints 2D int array
+    // O(n^2)
     for (auto i = 0; i < 15; i++)
     {
         for (auto j = 0; j < 15; j++)

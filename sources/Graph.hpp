@@ -12,6 +12,6 @@ private:
 public:
     Graph();
     void neighbor(int IDX);
-    void distance(int a, int b);
+    void distance(int start, int end);
     void print();
 };
